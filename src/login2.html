@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>!注册账号 - 完美世界通行证</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="sass/login.min.css">
+</head>
+
+
+<!-- 注册页------------------------------------------------ -->
+
+<body id="body">
+
+    <!--  开头协议声明 -->
+
+    <div id="public_hg_bg" style="display: none">display:block!
+
+        <div class="hg_bgtu">
+            <div class="docum">
+                <p class="center">温馨提示</p>
+                <br>
+                <br>
+                <p class="indent">感谢您使用完美世界的服务！</p>
+                <br>
+                <p class="indent">在您使用完美世界提供的服务时，我们将需要：收集您的手机号码、身份证号码、（可选）电子邮箱、（可选）昵称，以用于为您提供注册、登录或按照法规要求进行实名认证； 收集您的IP地址、个人常用设备信息、充值记录、游戏角色信息等，以便用于为您提供游戏服务。当您使用某些特定服务时，您有可能还需要向我们提供其他相应信息，在收集前我们会另有提示。</p>
+                <br>
+                <p class="indent">点击“同意”表示您已阅读并充分理解：</p>
+                <p class="indent"><a href="javascript">《完美世界用户协议》</a></p>
+                <p class="indent"><a href="javascript">《完美世界隐私政策》</a></p>
+            </div>
+            <div class="btns clear">
+                <a href="javascript" class="left hg_left">不同意</a>
+                <a href="#" class="right hg_right">同意</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="bgt">
+        <div class="bgt01" name="clockwise"></div>
+        <div class="bgt02" name="antiClockwise"></div>
+        <div class="bgt03" name="antiClockwise"></div>
+        <div class="bgt04" name="down_float"></div>
+        <div class="bgt05" name="up_float"></div>
+    </div>
+    <div id="main">
+        <div class="bg818">
+            <div class="m-logo">
+                <img src="https://safestatic.games.wanmei.com/passport/reg/images/logo.png" alt="">
+            </div>
+            <div class="m-form">
+                <div class="bg396">
+                    <h2>注册完美通行证</h2>
+                    <p>创建完美世界账号，抢先享受全方位的游戏服务</p>
+
+                    <div class="m-tab clear">
+                        <a href="#" class="phone left">手机注册（推荐）</a>
+                        <a href="#" class="email right">邮箱注册</a>
+                    </div>
+                    <div class="m-registry">
+                        <form action="" autocomplete="off">
+                            <input type="hidden" name="from" value="0">
+                            <input type="hidden" name="s" value="">
+                            <div class="ibox mb17 error">
+                                <input name="username" required="required" class="t_phone" type="text" placeholder="手机号">
+                                <i></i>
+                                <span class="ihint ihint_error">不能为空</span>
+                            </div>
+                            <div class="ibox ibox_eye error">
+                                <label class="pwshow" style="display: none;">密码（由8-16位大小写字母、数字及字符组成）</label>
+                                <input required="required" class="pwhide password" type="password" style="display: inline-block;">
+                                <i></i>
+                                <span class="ihint ihint_error">不能为空</span>
+                            </div>
+                            <div class="pwlevel">
+                                <ul class="cl pwLv" style="display: none;">
+                                    <li class="l cur"><span>低</span></li>
+                                    <li class="m"><span>中</span></li>
+                                    <li class="h"><span>高</span></li>
+                                </ul>
+                            </div>
+                            <div class="ibox ibox_eye mb34 error">
+                                <label class="pwshow" style="display: none;">重复密码</label>
+                                <input required="required" class="pwhide repeat" type="password" style="display: inline-block;">
+                                <i></i>
+                                <span class="ihint ihint_error">不能为空</span>
+                            </div>
+                            <div class="ibox mb17 error onfocus">
+                                <input name="truename" required="required" type="text" placeholder="真实姓名">
+                                <i></i>
+                                <span class="ihint ihint_error">不能为空</span>
+                            </div>
+                            <div class="ibox mb17 error">
+                                <input name="idnumber" required="required" type="text" placeholder="身份证">
+                                <i></i>
+                                <span class="ihint ihint_error">不能为空</span>
+                            </div>
+                            <div class="cl vbox">
+                                <div class="fl vboxl">
+                                    <div class="ibox">
+                                        <input name="rand" type="text" placeholder="验证码">
+                                        <i></i>
+                                    </div>
+                                </div>
+                                <div class="fl vboxr">
+                                    <a class="getMobileRand" href="javascript:void(0);">获取验证码</a>
+                                </div>
+                            </div>
+                            <div class="cbox" style="display: none">
+                                <input class="acceptcb" type="checkbox" checked="checked">
+                                <i class="check"></i>
+                                <span>我接受<a target="_blank" href="http://static.wanmei.com/passport/agreement/003.html">《完美通行证用户协议》</a>&nbsp;&nbsp;<a target="_blank" href="http://static.wanmei.com/passport/agreement/005.html">《隐私政策》</a></span>
+                            </div>
+                            <a class="rbtn_com rbtn_s1 mb15" href="javascript:void(0);" onclick="checkin(this)">免费注册通行证</a>
+                            <a class="rbtn_com rbtn_s2" href="/">已经有通行证了？</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部声明栏 -->
+    <div id="statement">
+        <div class="bg100">
+            <ul class="clear">
+                <li class="left">
+                    <a href="JavaScript">公司介绍</a>
+                </li>
+                <em class="left">|</em>
+                <li class="left">
+                    <a href="JavaScript">开发团队</a>
+                </li>
+                <em class="left">|</em>
+                <li class="left">
+                    <a href="JavaScript">招聘信息</a>
+                </li>
+                <em class="left">|</em>
+                <li class="left">
+                    <a href="JavaScript">联系我们</a>
+                </li>
+                <em class="left">|</em>
+                <li class="left">
+                    <a href="JavaScript">法律声明</a>
+                </li>
+                <em class="left">|</em>
+                <li class="left">
+                    <a href="JavaScript">用户协议</a>
+                </li>
+                <em class="left">|</em>
+                <li class="left">
+                    <a href="JavaScript">隐私政策</a>
+                </li>
+                <em class="left">|</em>
+                <li class="left">
+                    <a href="JavaScript">Cookie政策</a>
+                </li>
+                <em class="left">|</em>
+                <li class="left">
+                    <a href="JavaScript">网站地图</a>
+                </li>
+            </ul>
+        </div>
+        <div class="bg1002">
+            <p>京ICP证：050016号 《网络文化经营许可证》编号：文网文【2017】8929-1007号 <a href="JAvaScript">《网络视听许可证》编号：0110587</a> 京公网安备11010502033859号
+                <br>© 完美世界 版权所有　Perfect World. All Rights Reserved.</p>
+            <div class="clear">
+                <a href="JavaScript" class="left"><img src="https://static.games.wanmei.com/public/images/pay_bottom/bot_img1.png" alt=""></a>
+                <a href="JavaScript" class="left"><img src="https://static.games.wanmei.com/public/images/pay_bottom/bot_img2.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS文件 -->
+    <script type="text/javascript" src="../src/script/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../src/script/js/login.js"></script>
+
+</body>
+
+</html>

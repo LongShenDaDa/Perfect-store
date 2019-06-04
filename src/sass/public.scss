@@ -1,0 +1,807 @@
+    @charset "utf-8";
+//you ce xuan fu lan 
+body {
+    position: relative;
+}
+
+#xuanfulan {
+    display: block;
+    position: fixed;
+    right: 0px;
+    z-index: 888;
+    width: 35px;
+    height: 100%;
+    background: #0a0a0a;
+    .xfl-mid {
+        position: absolute;
+        top: 25%;
+        margin-top: -50%;
+        .xfl-div01 {
+            width: 35px;
+            height: 35px;
+            position: relative;
+            .xfl-hov-a1 {
+                display: block;
+                width: 35px;
+                height: 35px;
+                i {
+                    background: url(../img/base.png) no-repeat;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    display: block;
+                }
+                .xfl-i01 {
+                    width: 18px;
+                    height: 18px;
+                    background-position: -228px -74px;
+                    margin: -9px;
+                }
+                .xfl-i02 {
+                    width: 19px;
+                    height: 15px;
+                    background-position: -228px -42px;
+                    margin: -7.5px 0 0 -9.5px;
+                }
+                .xfl-i03 {
+                    width: 18px;
+                    height: 16px;
+                    background-position: -228px -57px;
+                    margin: -8px 0 0 -9px;
+                }
+            }
+            .xfl-hov-a1:hover {
+                background: #e32330;
+            }
+            p {
+                visibility: hidden;
+                width: 70px;
+                height: 35px;
+                line-height: 35px;
+                position: absolute;
+                top: 0;
+                right: 89px;
+                padding-left: 15px;
+                text-align: left;
+                opacity: 0;
+                transition: all 0.5s;
+                background: url(../img/base.png) no-repeat -94px -90px;
+                a {
+                    font-size: 12px;
+                    color: #fff;
+                }
+            }
+        }
+        .xfl-div01:hover>p {
+            visibility: visible;
+            right: 28px;
+            opacity: 1;
+        }
+        .xfl-div02 {
+            .xfl-a2 {
+                padding: 20px 0 10px 0;
+                width: 35px;
+                display: block;
+                margin: 10px 0;
+                position: relative;
+                transition: all 0.4s;
+                .xfl-i05 {
+                    background: url(../img/base.png) no-repeat;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    display: block;
+                    width: 22px;
+                    height: 18px;
+                    background-position: -184px -56px;
+                    margin: -9px 0 0 -11px;
+                    top: 17px;
+                }
+                span {
+                    width: 22px;
+                    margin: 0 auto;
+                    padding: 13px 2px;
+                    font-size: 13px;
+                    color: #fff;
+                    display: block;
+                    text-align: center;
+                }
+                b {
+                    display: block;
+                    width: 21px;
+                    height: 21px;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                    background: #e32330;
+                    text-align: center;
+                    line-height: 21px;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .xfl-a2:hover {
+            background: #e32330;
+            .xfl-i05 {
+                background-position: -184px -38px;
+            }
+            b {
+                background: #0a0a0a;
+            }
+        }
+    }
+    .xfl-botm {
+        position: absolute;
+        bottom: 50px;
+        width: 35px;
+        height: 35px;
+        .xfl-a3 {
+            display: block;
+            width: 35px;
+            height: 35px;
+            .xfl-i04 {
+                background: url(../img/base.png) no-repeat;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                display: block;
+                width: 24px;
+                height: 21px;
+                background-position: -228px -20px;
+                margin: -12px 0 0 -12px;
+                top: 17px;
+            }
+        }
+        .xfl-a3:hover {
+            background: #e32330;
+        }
+    }
+}
+
+// tou bu xin xi
+#hedrtop {
+    height: 33px;
+    background: #474747;
+    font-size: 12px;
+}
+
+.welcome {
+    display: block;
+    line-height: 33px;
+    font-size: 12px;
+    color: #cccccc;
+}
+
+.ht-you {
+    height: 33px;
+    line-height: 33px;
+    div {
+        margin-left: 40px;
+        i {
+            width: 1px;
+            height: 11px;
+            display: inline-block;
+            margin: 0px 5px;
+            background: #666;
+        }
+        a {
+            color: #ccc;
+        }
+        a:hover {
+            color: #fff;
+        }
+        .ht-gwc {
+            height: 33px;
+            display: block;
+            padding: 0px 25px 0px 50px;
+            position: relative;
+            background: #1e1e1e;
+            em {
+                display: inline-block;
+                position: absolute;
+                left: 20px;
+                top: 8px;
+                width: 22px;
+                height: 18px;
+                background: url(../img/base.png) no-repeat -184px -56px;
+            }
+            span {
+                b {
+                    color: #db313e;
+                }
+            }
+            .sub-gwc {
+                width: 350px;
+                height: 0px;
+                position: absolute;
+                top: 33px;
+                right: 0px;
+                z-index: 20;
+                background: #eee;
+                text-align: center;
+                overflow: hidden;
+                transition: all 0.4s;
+                p {
+                    padding: 49px 0 37px 0;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #666;
+                }
+            }
+        }
+        .ht-gwc:hover {
+            background: #e32332;
+            em {
+                background-position: -184px -38px;
+            }
+            span {
+                b {
+                    color: #fff;
+                }
+            }
+            .sub-gwc {
+                height: 115px;
+            }
+        }
+    }
+}
+
+#hedrbottom {
+    height: 101px;
+    border-bottom: 3px solid #de2f3c;
+    background: #ffffff;
+    .hb-logo {
+        display: block;
+        padding: 30px 40px;
+        background: #c20315;
+    }
+    // shang cheng 
+    .hb-SC {
+        display: block;
+        padding: 37px 5px;
+        margin: 0 30px;
+    }
+    // quang bu shang pin
+    .hb-nav {
+        height: 101px;
+        transition: all 0.3s;
+        position: relative;
+        span {
+            display: block;
+            height: 101px;
+            line-height: 101px;
+            font-size: 15px;
+            padding: 0px 65px 0 35px;
+            i {
+                display: inline-block;
+                width: 15px;
+                height: 13px;
+                margin-right: 8px;
+                background: url(../img/base.png) no-repeat -24px 0;
+            }
+        }
+        // quan bu shang pin--er ji dao hang 
+        .hb-subnav {
+            position: absolute;
+            display: block;
+            z-index: 100;
+            display: none;
+            ul {
+                display: block;
+                height: 100%;
+                padding-bottom: 10px;
+                background: #fff;
+                li {
+                    width: 133px;
+                    height: 40px;
+                    line-height: 40px;
+                    padding-left: 30px;
+                    padding-right: 20px;
+                    position: relative;
+                    a {
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 14px;
+                        color: #474747;
+                        em {
+                            display: inline-block;
+                            width: 6px;
+                            height: 10px;
+                            background: url(../img/base.png) no-repeat -54px 0;
+                            position: absolute;
+                            right: 10px;
+                            top: 15px;
+                        }
+                    }
+                    // quan bu shang pin--san ji dao hang 
+                    .three-nav {
+                        display: block;
+                        position: absolute;
+                        left: 183px;
+                        top: 0px;
+                        height: 0px;
+                        background: #f5f5f5;
+                        overflow: hidden;
+                        transition: all 0.2s;
+                        a {
+                            display: block;
+                            width: 155px;
+                            padding-left: 20px;
+                            height: 40px;
+                            line-height: 40px;
+                        }
+                        a:hover {
+                            background: #fff;
+                        }
+                    }
+                }
+                .hb-hover-li01:hover {
+                    .hb-hover-div01 {
+                        height: 200px;
+                    }
+                }
+                .hb-hover-li02:hover {
+                    .hb-hover-div02 {
+                        height: 80px;
+                    }
+                }
+                .hb-hover-li03:hover {
+                    .hb-hover-div03 {
+                        height: 120px;
+                    }
+                }
+                .hb-snli:hover {
+                    background: #f5f5f5f5;
+                    .hb-sna {
+                        color: #e90404;
+                        em {
+                            background-position: -60px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hb-nav:hover {
+        background: #e32331;
+        span {
+            color: #fff;
+            i {
+                background-position: -39px 0;
+            }
+        }
+        .hb-subnav {
+            display: block;
+        }
+    }
+    // zhu ti dao hang lan 
+    ul {
+        display: block;
+        height: 101px;
+        line-height: 101px;
+        li {
+            padding: 0 15px;
+            a {
+                font-size: 15px;
+                color: #474747;
+            }
+            a:hover {
+                color: #e90404;
+            }
+        }
+    }
+    // sou suo lan 
+    .hb-ssl {
+        width: 320px;
+        height: 101px;
+        form {
+            margin-top: 30px;
+            position: relative;
+            .hb-ipt1 {
+                display: inline-block;
+                width: 258px;
+                padding: 0 5px;
+                height: 38px;
+                outline: 0;
+                border: 1px solid #CCC;
+                border-right: none;
+                margin: 0;
+                font-size: 14px;
+                font-family: "Microsoft YaHei";
+            }
+            .hb-ipt2 {
+                display: inline-block;
+                width: 45px;
+                height: 40px;
+                border: 0;
+                margin-left: -5px;
+                vertical-align: middle;
+                background: #e32332 url(../img/search.png) no-repeat 12px 11px;
+            }
+            .hb-ipt2:hover {
+                background: #cc0000 url(../img/search.png) no-repeat 12px 11px;
+            }
+            span {
+                position: absolute;
+                top: 1px;
+                right: 56px;
+                height: 30px;
+                padding-top: 9px;
+                a {
+                    display: inline-block;
+                    padding: 3px 5px;
+                    background-color: #EEE;
+                    color: #666;
+                    font-size: 12px;
+                }
+                a:hover {
+                    color: #e90404;
+                }
+            }
+        }
+    }
+}
+
+// di bu tong lan 
+#about {
+    padding: 23px 0px 40px;
+    background: #fff;
+    .ab-top {
+        height: 65px;
+        border-bottom: 1px solid #e9e9e9;
+        ul {
+            display: block;
+            height: 45px;
+            margin-bottom: 20px;
+            li {
+                width: 296px;
+                height: 45px;
+                span {
+                    display: block;
+                    height: 45px;
+                    line-height: 45px;
+                    text-align: center;
+                    font-size: 18px;
+                    color: #999;
+                    i {
+                        display: inline-block;
+                        width: 45px;
+                        height: 45px;
+                        margin-right: 15px;
+                        background: url(../img/about.png) no-repeat;
+                        vertical-align: middle;
+                    }
+                    .jlt2 {
+                        background-position: -45px 0;
+                    }
+                    .jlt3 {
+                        background-position: -90px 0;
+                    }
+                    .jlt4 {
+                        background-position: -135px 0;
+                    }
+                }
+            }
+            .border01 {
+                border-right: 1px solid #e9e9e9;
+            }
+        }
+    }
+    .ab-bottom {
+        padding-top: 40px;
+        dl {
+            width: 297px;
+            dt {
+                height: 35px;
+                font-size: 14px;
+                text-indent: 110px;
+                color: #474747;
+                font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif, \5b8b\4f53;
+            }
+            dd {
+                height: 24px;
+                ;
+                text-indent: 110px;
+                a {
+                    font-size: 12px;
+                    color: #999999;
+                }
+                a:hover {
+                    color: #e90404;
+                }
+            }
+        }
+        div {
+            width: 232px;
+            height: 160px;
+            padding-left: 65px;
+            border-left: 1px solid #e9e9e9;
+            .ab-p1 {
+                font-size: 24px;
+                font-family: Arial;
+            }
+            .ab-p2 {
+                padding: 16px 0 24px 0;
+                font-size: 14px;
+                color: #999;
+            }
+            .ab-a1 {
+                display: block;
+                width: 154px;
+                height: 35px;
+                line-height: 35px;
+                text-align: center;
+                color: #ea0f1f;
+                font-size: 16px;
+                border: 1px solid #ff5353;
+                border-radius: 3px;
+                i {
+                    display: inline-block;
+                    width: 19px;
+                    height: 15px;
+                    margin-right: 6px;
+                    background: url(../img/base.png) no-repeat -188px 0;
+                    vertical-align: middle;
+                }
+            }
+            .ab-a1:hover {
+                color: #fff;
+                background: #ea0f1f;
+                i {
+                    background-position: -240px 0;
+                }
+            }
+            .ab-a2 {
+                text-indent: 50px;
+                font-size: 14px;
+                color: #474747;
+                padding: 16px 0 0;
+                display: block;
+            }
+        }
+    }
+}
+
+// ban qaun sheng min xin xi
+#copyright {
+    padding: 25px 0 30px 0;
+    text-align: center;
+    font-size: 12px;
+    background: #f5f5f5;
+    ul {
+        display: inline-block;
+        margin: 0 auto;
+        li {
+            a {
+                color: #666;
+                line-height: 12px;
+            }
+            a:hover {
+                color: #e90404;
+            }
+        }
+        em {
+            display: inline-block;
+            width: 1px;
+            height: 12px;
+            margin: 0px 10px 0px;
+            background: #ddd;
+        }
+    }
+    p {
+        color: #999;
+        a {
+            color: #666;
+            line-height: 12px;
+        }
+        a:hover {
+            color: #e90404;
+        }
+    }
+    .c-p1 {
+        padding-top: 24px;
+    }
+    .c-p2 {
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+    .link01 {
+        height: 40px;
+        margin: 0 auto;
+        display: inline-block;
+        a {
+            margin: 0 6px 0;
+        }
+    }
+}
+
+// mo tai kuang-deng lu 
+#mtk-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(70, 70, 70, 0.411);
+    .mtk-location {
+        width: 626px;
+        background: #fff;
+        margin: 80px auto;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+        border: 1px solid #979797;
+        border-radius: 3px;
+        .mtk-xx {
+            height: 22px;
+            margin-bottom: 12px;
+            text-align: right;
+            position: relative;
+            span {
+                position: absolute;
+                right: 0;
+                display: block;
+                width: 50px;
+                height: 22px;
+                border-left: 1px solid #dfdfdf;
+                background: #fff url(https://static.games.wanmei.com/pay/sso/basic/images/closebox.png) no-repeat 20px 6px;
+            }
+            span:hover {
+                cursor: pointer;
+                border-radius: 3px;
+                background: #dc4949 url(https://static.games.wanmei.com/pay/sso/basic/images/closebox_hover.png) no-repeat 20px 6px;
+            }
+        }
+        .mtk-kuang {
+            width: 100%;
+            font-family: "宋体";
+            padding-bottom: 20px;
+            h5 {
+                color: #999;
+                font-size: 14px;
+            }
+            .mtk-k-div1 {
+                width: 264px;
+                text-align: center;
+                font-size: 12px;
+                .ewmbox {
+                    width: 130px;
+                    padding: 10px;
+                    border: 1px solid #dfdfdf;
+                    margin: 35px auto 20px;
+                    position: relative;
+                    .ewmts {
+                        position: absolute;
+                        top: -58px;
+                        left: 160px;
+                        display: none;
+                    }
+                }
+                p {
+                    color: #666;
+                    margin-bottom: 12px;
+                }
+                a {
+                    color: #ff4a4a;
+                }
+                .ewmbox:hover>.ewmts {
+                    display: block;
+                }
+            }
+            .mtk-k-div2 {
+                width: 250px;
+                padding: 0 30px 28px 50px;
+                border-left: 1px solid #dfdfdf;
+                .logbox {
+                    margin-top: 35px;
+                    p {
+                        margin-bottom: 12px;
+                        display: block;
+                        height: 40px;
+                        border: 1px solid #ddd;
+                        border-radius: 5px;
+                        line-height: 38px;
+                        input {
+                            height: 38px;
+                            border: 0;
+                            outline: 0;
+                            width: 205px;
+                            padding-left: 35px;
+                            font-size: 13px;
+                            color: #999;
+                            background: transparent;
+                        }
+                    }
+                    .username {
+                        background: url(../img/user.png) no-repeat 10px 11px;
+                    }
+                    .password {
+                        background: url(../img/password.png) no-repeat 10px 11px;
+                    }
+                    span {
+                        height: 36px;
+                        display: block;
+                        .dl1 {
+                            background: url(https://safestatic.games.wanmei.com/sso/basic/images/bt1.png) no-repeat;
+                            width: 92px;
+                            height: 36px;
+                            border: 0 none;
+                            color: #fff;
+                            font-size: 14px;
+                            font-weight: bold;
+                            margin-right: 10px;
+                        }
+                        .dl1:hover {
+                            background-image: url(https://safestatic.games.wanmei.com/sso/basic/images/bt1_hover.png);
+                        }
+                        .dl2 {
+                            background: url(https://safestatic.games.wanmei.com/sso/basic/images/bt2.png) no-repeat;
+                            width: 120px;
+                            height: 36px;
+                            border: 0 none;
+                            color: #666;
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+                        .dl2:hover {
+                            background-image: url(https://safestatic.games.wanmei.com/sso/basic/images/bt2_hover.png);
+                        }
+                    }
+                    .renzhen {
+                        text-align: center;
+                        transition: all 0.5s linear;
+                        font-family: auto;
+                        font-size: 14px;
+                        position: relative;
+                        span {
+                            border: 4px solid #418df1;
+                            transition: all 0.5s linear;
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+                            position: absolute;
+                            left: 18px;
+                            top: 10px;
+                        }
+                    }
+                    .renzhen:hover {
+                        color: #1875f0;
+                        border-color: #1875f0;
+                        span {
+                            animation: qq infinite 1s ease;
+                        }
+                    }
+                    @keyframes qq {
+                        0% {
+                            width: 12px;
+                            height: 12px;
+                        }
+                        50% {
+                            width: 18px;
+                            height: 18px;
+                            margin-top: -3px;
+                            margin-left: -3px;
+                        }
+                        100% {
+                            width: 12px;
+                            height: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        #mtkbottom {
+            font-size: 12px;
+            font-family: "宋体";
+            padding-right: 22px;
+            padding-bottom: 15px;
+            a {
+                color: #999;
+            }
+            span {
+                color: #999;
+                padding: 0 10px;
+            }
+        }
+    }

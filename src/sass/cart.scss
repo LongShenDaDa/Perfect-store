@@ -1,0 +1,97 @@
+@charset "utf-8";
+// 购物车页面样式
+#trolley {
+    padding-bottom: 62px;
+    background: #f5f5f5;
+    // 导航栏
+    .trolley-nav {
+        height: 44px;
+        line-height: 44px;
+        font-size: 12px;
+        a {
+            color: #666;
+            padding-right: 4px;
+        }
+        a:hover {
+            color: #e90404;
+        }
+    }
+    // 购物车内栏
+    .trolley-gwc {
+        width: 100%;
+        height: 300px;
+        background: #fff;
+        margin-bottom: 40px;
+        .trolley-hint {
+            display: block;
+            padding-left: 30%;
+            i {
+                display: inline-block;
+                width: 80px;
+                height: 60px;
+                margin-right: 14px;
+                background: url(../img/base.png) no-repeat -78px -132px;
+                vertical-align: -11px;
+            }
+            span {
+                height: 300px;
+                line-height: 300px;
+                margin-bottom: 40px;
+                font-size: 18px;
+                background-color: #FFF;
+                color: #666;
+                text-align: center;
+                a {
+                    color: #e90404;
+                }
+            }
+        }
+    }
+    // 猜你喜欢
+    .trolley-live {
+        width: 100%;
+        height: 380px;
+        background: #fff;
+        margin-bottom: 40px;
+        position: relative;
+        h3 {
+            display: block;
+            margin-bottom: 39px;
+            border-bottom: 1px solid #e0e0e0;
+            height: 59px;
+            line-height: 59px;
+            padding: 0 63px;
+            font-size: 18px;
+            color: #e90404;
+            font-weight: 500;
+        }
+        .trolley-arrows {
+            position: absolute;
+            top: 155px;
+            width: 100%;
+            height: 80px;
+            a {
+                margin: 0 10px;
+                width: 47px;
+                height: 80px;
+                border-radius: 3px;
+                i {
+                    width: 47px;
+                    height: 80px;
+                    display: block;
+                    border-radius: 3px;
+                    background: #666;
+                }
+                .arrows-left {
+                    background: url(../img/base.png) no-repeat 0px -20px;
+                }
+                .arrows-right {
+                    background: url(../img/base.png) no-repeat -47px -20px;
+                }
+            }
+            a:hover {
+                background: #474747;
+            }
+        }
+    }
+}

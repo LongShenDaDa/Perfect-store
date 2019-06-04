@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+
+
+/* v1.0 | 20080212 */
+
+
+/* 全局样式 */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif, \5b8b\4f53;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    visibility: hidden
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+
+/* remember to define focus styles!(记住要定义焦点样式!) */
+
+:focus {
+    outline: 0;
+}
+
+
+/* remember to highlight inserts somehow!(记住以某种方式突出显示插入!) */
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+
+/* tables still need 'cellspacing="0"' in the markup(表在标记中仍然需要' cellspace ="0") */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* 背景宽度 */
+
+.bg {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+/* hover移动与阴影 */
+
+.boxshadow:hover {
+    box-shadow: -5px 5px 5px -4px #ccc, 5px 5px 5px -4px #ccc;
+}
+
+.hover-move4:hover {
+    margin-top: -4px;
+}
+
+.hover-move3:hover {
+    margin-top: -3px;
+}
